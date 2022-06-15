@@ -1,0 +1,13 @@
+version: '3.2'
+services:
+  app:
+    build: .
+    tty: true
+    stdin_open: true
+    # volumes:
+    #   - ./:/app
+    # environment:
+    #   PORT: 3000
+    #   HOST: 0.0.0.0
+    # ports:
+    #   - "3000:3000" # localhost:3000にポートをマッピングする
